@@ -1,14 +1,47 @@
+<!DOCTYPE html>
+<html>
 
-<div class=parent_div>
-<div class=titlebar_div>
-<img src=http://readonlymemori.es/favicon.gif> CopperWebBot
-</div>
-<div class=chat_div>
-<iframe src="https://webchat.botframework.com/embed/CopperBot?s=c6KJi-onVjw.cwA.6Fs.XlTopxmXn7zu__tvn2v8jEhDGV01pu52WKwN3zuYZvk" style="height: 500px; width: 100%; margin-top: -40px;"></iframe>
-</div>
-</div>
+<head>
+    <style>
+        .parent_div {
+            background-color: #14256c;
+            color: #fff;
+            font-size: 16px;
+            padding: 8px 4px 4px 4px;
+            position: fixed;
+            bottom: 0;
+            right: 30px;
+            width: 300px;
+        }
+        
+        .titlebar_div {
+            cursor: pointer;
+            padding-bottom: 4px;
+        }
+        
+        .chat_div {
+            background-color: #fff;
+            height: 460px;
+            overflow: hidden;
+        }
+    </style>
+</head>
 
-<script type="text/javascript">
+<body>
+    <div class=parent_div>
+        <div class=titlebar_div>
+            <img src=http://readonlymemori.es/favicon.gif> CopperWebBot
+        </div>
+        <div class=chat_div>
+            <iframe src="https://webchat.botframework.com/embed/CopperBot?s=c6KJi-onVjw.cwA.6Fs.XlTopxmXn7zu__tvn2v8jEhDGV01pu52WKwN3zuYZvk"
+                style="height: 500px; width: 100%; margin-top: -40px;"></iframe>
+        </div>
+    </div>
+
+    <script type="text/javascript">
 jQuery(".parent_div .titlebar_div").click(function(){$(".parent_div .chat_div").slideToggle();});
 jQuery(".parent_div .chat_div").hide();
 </script>
+</body>
+
+</html>
