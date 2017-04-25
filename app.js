@@ -1,3 +1,5 @@
+
+
 var restify = require('restify')
 var builder = require('botbuilder')
 var cognitiveservices = require('botbuilder-cognitiveservices')
@@ -29,7 +31,3 @@ var BasicQnAMakerDialog = new cognitiveservices.QnAMakerDialog({
   qnaThreshold: 0.5})
 
 bot.dialog('/', BasicQnAMakerDialog)
-/*bot.dialog('/', function (session) {
-    session.send("Hello World");
-});
-*/

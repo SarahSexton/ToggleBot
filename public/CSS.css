@@ -1,0 +1,19 @@
+.parent_div{
+background-color:#14256c;
+color:#fff;
+font-size:16px;
+padding: 8px 4px 4px 4px;
+position: fixed;
+bottom: 0;
+right:30px;
+width:300px;
+}
+.titlebar_div{
+ cursor: pointer;
+ padding-bottom: 4px;
+}
+.chat_div{
+background-color:#fff;
+height:460px;
+overflow:hidden;
+}
