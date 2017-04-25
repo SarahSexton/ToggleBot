@@ -1,0 +1,27 @@
+{
+  "name": "copperbot",
+  "version": "1.0.0",
+  "description": "Q&A Bot service for Frequently Asked Questions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarahSexton/CopperBot.git"
+  },
+  "author": "Sarah Sexton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarahSexton/CopperBot/issues"
+  },
+  "homepage": "https://github.com/SarahSexton/CopperBot#readme",
+  "dependencies": {
+    "botbuilder": "^3.7.0",
+    "dotenv": "^4.0.0",
+    "querystring": "^0.2.0",
+    "request": "^2.81.0",
+    "restify": "^4.3.0",
+    "botbuilder-cognitiveservices": "^1.0.1"
+  }
+}
