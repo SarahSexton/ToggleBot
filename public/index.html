@@ -32,7 +32,9 @@
 </head>
 
 <body>
-    <a href="http://www.cmegroup.com/clearing/clearing_faq.html" target="_blank"><img src="http://img.photobucket.com/albums/v129/youthere51/CMEgroupFAQ.png" border="0" alt=" photo CMEgroupFAQ.png"/></a>
+    <div class="fixed-background">
+    <a href="http://www.cmegroup.com/clearing/clearing_faq.html" target="_blank"><img src="http://img.photobucket.com/albums/v129/youthere51/CMEgroupFAQ.png" border="0" alt=" photo CMEgroupFAQ.png" height="100%" width="100%"/></a>
+    </div>
     <div class=parent_div>
         <div class=titlebar_div>
             <img src=http://www.cmegroup.com/etc/clientlibs/cmegroup/cmegroupClientLibs/images/favicon.ico> HelpDeskBot
@@ -44,8 +46,9 @@
     </div>
 
     <script type="text/javascript">
-    jQuery(".parent_div .titlebar_div").click(function(){$(".parent_div .chat_div").slideToggle();}); 
-    jQuery(".parent_div .chat_div").hide();</script>
+        jQuery(".parent_div .titlebar_div").click(function () { $(".parent_div .chat_div").slideToggle(); });
+        jQuery(".parent_div .chat_div").hide();
+    </script>
 
 </body>
 
